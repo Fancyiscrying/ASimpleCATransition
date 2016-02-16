@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9046" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9035"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8sJ-Ic-H8j">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <animations/>
+                                <color key="backgroundColor" red="1" green="0.82298401870000004" blue="0.62506306109999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <size key="titleShadowOffset" width="2.2250738585072014e-308" height="0.0"/>
+                                <state key="normal" title="淡入淡出"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="38" y="28" width="60" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="TapButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ldg-d1-cZI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jWG-0K-lZy">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <animations/>
+                                <color key="backgroundColor" red="1" green="0.82298401870000004" blue="0.62506306109999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="推出"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="38" y="92" width="60" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="TapButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CRr-2b-cbl"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qfB-uD-tTw">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <animations/>
+                                <color key="backgroundColor" red="1" green="0.82298401870000004" blue="0.62506306109999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="揭开"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="38" y="152" width="60" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="TapButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kHa-PU-CSL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a7C-TO-qxM">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <animations/>
+                                <color key="backgroundColor" red="1" green="0.82298401870000004" blue="0.62506306109999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="覆盖"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="38" y="220" width="60" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="TapButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IOb-IU-MJE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e6h-eY-aPQ">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <animations/>
+                                <color key="backgroundColor" red="1" green="0.82298401870000004" blue="0.62506306109999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="立方体"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="38" y="294" width="60" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="TapButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BdW-rj-iOC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gHT-7I-vst">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <animations/>
+                                <color key="backgroundColor" red="1" green="0.82298401870000004" blue="0.62506306109999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="吮吸"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="38" y="371" width="60" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="TapButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mKF-z7-7xu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JB1-P8-bHb">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <animations/>
+                                <color key="backgroundColor" red="1" green="0.82298401870000004" blue="0.62506306109999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="翻转"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="38" y="467" width="60" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="TapButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Z24-Qr-K9G"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B7G-6p-3Bv">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <animations/>
+                                <color key="backgroundColor" red="1" green="0.82298401870000004" blue="0.62506306109999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="波纹"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="38" y="540" width="60" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="TapButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Qf7-r2-MCd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RHV-sh-klL">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <animations/>
+                                <color key="backgroundColor" red="1" green="0.82298401870000004" blue="0.62506306109999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="翻页"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="268" y="28" width="57" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="TapButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="o5z-pA-cEq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5o7-5Q-aT3">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <animations/>
+                                <color key="backgroundColor" red="1" green="0.82298401870000004" blue="0.62506306109999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="反翻页"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="268" y="92" width="57" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="TapButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zoh-MD-sO5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="12" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nhb-Mq-lqT">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <animations/>
+                                <color key="backgroundColor" red="1" green="0.82298401870000004" blue="0.62506306109999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="关镜头"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="268" y="220" width="57" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="TapButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GHu-Sl-JOd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="13" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xMC-ug-qhO">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <animations/>
+                                <color key="backgroundColor" red="1" green="0.82298401870000004" blue="0.62506306109999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="下翻页"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="268" y="294" width="57" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="TapButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OcY-SX-ZNR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="14" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0H8-FJ-ML2">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <animations/>
+                                <color key="backgroundColor" red="1" green="0.82298401870000004" blue="0.62506306109999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="上翻页"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="268" y="371" width="57" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="TapButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jx3-eB-MCZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="15" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TL2-qz-QeC">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <animations/>
+                                <color key="backgroundColor" red="1" green="0.82298401870000004" blue="0.62506306109999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="左翻转"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="268" y="467" width="57" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="TapButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Q9w-MD-XFs"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="16" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JY4-bK-UH7">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <animations/>
+                                <color key="backgroundColor" red="1" green="0.82298401870000004" blue="0.62506306109999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="右翻转"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="268" y="540" width="57" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="TapButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XLI-VJ-LDU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kde-7z-Nop">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <animations/>
+                                <color key="backgroundColor" red="1" green="0.82298401870000004" blue="0.62506306109999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="开镜头"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="268" y="152" width="57" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="TapButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="52M-1P-ati"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="8sJ-Ic-H8j"/>
+                                <exclude reference="jWG-0K-lZy"/>
+                                <exclude reference="qfB-uD-tTw"/>
+                                <exclude reference="a7C-TO-qxM"/>
+                                <exclude reference="e6h-eY-aPQ"/>
+                                <exclude reference="gHT-7I-vst"/>
+                                <exclude reference="JB1-P8-bHb"/>
+                                <exclude reference="B7G-6p-3Bv"/>
+                                <exclude reference="RHV-sh-klL"/>
+                                <exclude reference="5o7-5Q-aT3"/>
+                                <exclude reference="nhb-Mq-lqT"/>
+                                <exclude reference="xMC-ug-qhO"/>
+                                <exclude reference="0H8-FJ-ML2"/>
+                                <exclude reference="TL2-qz-QeC"/>
+                                <exclude reference="JY4-bK-UH7"/>
+                                <exclude reference="kde-7z-Nop"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="8sJ-Ic-H8j"/>
+                                <include reference="jWG-0K-lZy"/>
+                                <include reference="qfB-uD-tTw"/>
+                                <include reference="a7C-TO-qxM"/>
+                                <include reference="e6h-eY-aPQ"/>
+                                <include reference="gHT-7I-vst"/>
+                                <include reference="JB1-P8-bHb"/>
+                                <include reference="B7G-6p-3Bv"/>
+                                <include reference="RHV-sh-klL"/>
+                                <include reference="5o7-5Q-aT3"/>
+                                <include reference="nhb-Mq-lqT"/>
+                                <include reference="xMC-ug-qhO"/>
+                                <include reference="0H8-FJ-ML2"/>
+                                <include reference="TL2-qz-QeC"/>
+                                <include reference="JY4-bK-UH7"/>
+                                <include reference="kde-7z-Nop"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="304.5" y="354"/>
+        </scene>
+    </scenes>
+</document>
