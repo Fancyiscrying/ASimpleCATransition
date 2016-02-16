@@ -251,4 +251,17 @@ typedef enum : NSUInteger{
     // Dispose of any resources that can be recreated.
 }
 
+
+- (void)changeView
+{
+    CATransition *t=[CATransition animation];
+    t.duration=0.8f;
+    t.type=kCATransitionFromLeft;
+    
+    
+
+
+
+}
+
 @end
